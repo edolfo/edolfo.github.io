@@ -19,6 +19,7 @@ title: testarooni
 
     <div class="container">
       <section id="main_content">
+        <h3> Posts </h3>
         <ul class="posts">
           {% for post in site.posts %}
             <li> <a href="{{ post.url }}">{{ post.date | date_to_string }}</a> </li>
